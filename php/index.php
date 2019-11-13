@@ -17,27 +17,20 @@
     <img src="../images/logo.png" alt="" id="logo_banner">
     <nav class="navigation">
       <div id="navigation--dropdown_menu">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
         <input type="checkbox" />
-
-        <!--
-        Some spans to act as a hamburger.
-
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
         <span></span>
         <span></span>
         <span></span>
-
-        <!--
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-        -->
         <ul id="dropdown_menu">
+          <a href="https://ha-ha.space/"><li>Notre révolution</li></a>
+          <a href="https://ha-ha.space/"><li>About</li></a>
+          <a href="https://ha-ha.space/"><li>Info</li></a>
+          <a href="https://ha-ha.space/"><li>Contact</li></a>
+          <a href="https://ha-ha.space/"><li>Home</li></a>
+        </ul>
+      </div>
+      <div id="navigation--full_bar">
+        <ul id="full_bar">
           <a href="https://ha-ha.space/"><li>Notre révolution</li></a>
           <a href="https://ha-ha.space/"><li>About</li></a>
           <a href="https://ha-ha.space/"><li>Info</li></a>
@@ -79,6 +72,7 @@
         </div>
       </div>
     </article>
+    
     <article>
       <div class="article--left_part">
       </div>
