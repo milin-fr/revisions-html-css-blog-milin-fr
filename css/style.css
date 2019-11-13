@@ -25,6 +25,10 @@ main {
   padding-top: 100px;
 }
 
+footer {
+  font-size: 0.8em;
+}
+
 #logo_banner {
   position: fixed;
   left: 40px;
@@ -287,9 +291,6 @@ footer {
   main {
     padding-top: 0;
   }
-  .footer--links{
-    float: right;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -301,10 +302,19 @@ footer {
     display: flex;
     max-width: 1000px;
   }
+
+  footer {
+    max-width: 1000px;
+  }
+
   .article--left_part {
     width: 40%;
   }
   
+  article::after {
+    top: 100%;
+  }
+
   article:nth-child(1) > div.article--left_part {
     background-image: url("../images/src/photo1.jpg");
     background-size: cover;
@@ -326,5 +336,11 @@ footer {
   }
   .article--right_part {
     width: 60%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
